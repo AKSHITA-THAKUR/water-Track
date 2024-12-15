@@ -15,7 +15,7 @@ export default function Index() {
   const [amount, setAmount] = useState("");
 
   OneSignal.Debug.setLogLevel(LogLevel.Verbose);
-  OneSignal.initialize("cbaf8d4f-6a46-493b-9059-4d8b2706c46a");
+  OneSignal.initialize("06d3bff3-4180-4c39-8920-e5cc3c657ae3");
   OneSignal.Notifications.requestPermission(true);
 
   const [barData, setBarData] = useState<BarData[]>([
